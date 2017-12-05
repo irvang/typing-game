@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Typing Game Prototype</title>
+
+  <script src="js/words.js"></script>
+  <script src="js/word-functions.js"></script>
+  <script src="js/random-word.js"></script>
+  <script src="js/timer.js"></script>
+  <script src="js/listeners.js"></script>
+  <script src="js/index.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+  <!-- Game section    -->
+  <section id='game-section'>
+    <div id='first-div'>
+      <h2>Typing game.</h2>
+      <h3> Based on
+        <i>Type of the Dead.</i>
+      </h3>
+      <p>
+        Please type this word:
+      </p>
+      <output id='show-word'></output>
+
+      <br>
+      <br>
+
+      <label for="word-input">Type your words here:
+        <input type="text" id='word-input' name='words'>
+      </label>
+      <br>
+      <br>
+      <output id='assert'>
+        <!--ASSERT OUTPUT-->
+      </output>
+      <br>
+      <br>
+      <div id="display-time" class=''>
+        0
+      </div>
+      <br>
+      <br>
+    </div>
+    <div id='second-div'>
+      <label for='wordLength'>
+        Starting word length</label>
+      <br>
+      <input id='wordLength' type='number' min='3' max='15' value='3'>
+      <br>
+      <label for='counter-dur'>
+        Counter duration</label>
+      <br>
+      <input id='counter-dur' type='number' min='3' max='15' value='7'>
+
+    </div>
+
+  </section>
+  <hr>
+
+  <!--   Comments section  -->
+  <section>
+
+    <!--     About the game -->
+    <!-- <div>
+      <p>
+        This is a prototype of a typing game based on the game
+        <i>Type of the Dead.</i> The idea is to type the words as fast as possible. The selection of words comes from scientific
+        animal names (
+        <a href="https://a-z-animals.com/animals/scientific/" target='_blank'>source: Animals by Scientific Names</a>).
+      </p>
+
+      <h4>The game:</h4>
+      <p>
+        A word will appear in black. Type the words as fast as possible in the box. A new word will show once you have typed the
+        prompted word. If time ends before you are able to type the word, a new word will be prompted.
+        <br> At the beginning, words are four or less cahracters long (word length &lt;= 4). There will be an increase in word
+        lenght every five (5) words. After the 5th increase the words will be eight letters or longer (word length &gt;=
+        8).
+      </p>
+    </div>
+
+    <br>
+    <br>
+    <hr> -->
+
+    <!--     Comments -->
+    <!-- <div>
+      <h4>From a programming standpoint some interesting features might be: </h4>
+      <ul>
+        <li>A timer object that holds several functions including posting to a desired HTML element identified by ID. (MyTimer()
+          - line 103)</li>
+        <li> Use of 2-dimensional arrays for the word selections. The increase in difficulty is based on word length. (randomWordSelector()
+          - line 44)</li>
+        <li>Listeners and interaction with the DOM. </li>
+        <li>All Javascript code separated from the HTML code. </li>
+        <li>Automatic clearing of the input element by length of word (line 86) or by timer (line 126). </li>
+        <li>Assertion of correctness. Text color changed with a class (lines 88-98).</li>
+        <li>Removing words from array after completing them correctly to avoid repetition.(line 56) </li>
+        <li>Timer stops automatically at end and displays a notification message. (line 67 &gt;&gt;&gt; line 138) </li>
+      </ul>
+      <h6>Note: All line numbers refer JS file.</h6>
+    </div>
+	<hr> -->
+	
+    <!--     Observations -->
+    <!-- <div>
+      <h4>Observations on code: </h4>
+      <ul>
+        <li>Global space is too polluted, perhaps an object acting in a namespace sort of way would help with this. </li>
+        <li>Arrays could be sorted automatically instead of manually, which would make it easier to add more words to the program.</li>
+        <li> Code could be improved, maybe rewritten in a more effective and organized way. </li>
+      </ul>
+    </div>
+
+    <hr> -->
+    <!--  Possible future work    -->
+    <!-- <div>
+      <h4>Possible improvements (future work):</h4>
+      <ul>
+        <li>Adding a score. </li>
+
+        <li>Add a general counter.</li>
+        <li>Highlight typed key in word and notify of errors per letter (as opposed to per word as it is at the moment). </li>
+        <li>Add a reset button. </li>
+        <li>Better layout handling, CSS, etc. </li>
+        <li>Initiation of time on user's first input. </li>
+        <li>An option to select timer length.</li>
+      </ul>
+    </div> -->
+  </section>
+</body>
+
+
+</html>

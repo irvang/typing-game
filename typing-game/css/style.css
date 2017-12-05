@@ -1,0 +1,60 @@
+html, body {
+  font-size: 20px;
+  line-height: 1;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p , li{
+  font-size: 0.9rem;
+}
+
+#game-section {
+  background-color: aliceblue;
+  
+  border: solid;
+  margin: auto;
+  max-width: 500px;
+}
+#first-div {
+	text-align: center;
+}
+#second-div {
+	/* something */
+	font-size: 0.8rem;
+	/* width: 250px; */
+}
+
+
+#word-input {
+  font-size: 0.9rem;
+}
+
+#display-time {
+    background-color: aqua;
+    width: 20px;
+    border: 5px solid orange;
+    padding: 25px;
+    margin: auto;
+}
+#show-word {
+  font-weight: bold;
+}
+
+.good-input {
+  color: #006eff;
+}
+
+.bad-input {
+  color: #ff0000;
+}
+
+.end-input {
+  color: #8a2be2;
+}
+
+.erase-assertion {
+  color: rgba(255,255,255, 0.0);
+}
+
+.line-through {
+  text-decoration: line-through;
+}
