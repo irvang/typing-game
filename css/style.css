@@ -1,60 +1,82 @@
 html, body {
-  font-size: 20px;
-  line-height: 1;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 20px;
+	line-height: 1;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-p , li{
-  font-size: 0.9rem;
+
+body {
+	background-color: #0035359c;
+}
+
+p, li {
+	font-size: 0.9rem;
 }
 
 #game-section {
-  background-color: aliceblue;
-  
-  border: solid;
-  margin: auto;
-  max-width: 500px;
+	background-color: #c8e5ff;
+	border: 10px solid #014598d9;
+	border-radius: 5px;
+	margin: auto;
+	max-width: 450px;
+	padding: 10px;
+	min-height: 450px;
+	min-width: 200px;
 }
+
 #first-div {
 	text-align: center;
-}
-#second-div {
-	/* something */
-	font-size: 0.8rem;
-	/* width: 250px; */
+
 }
 
+#second-div {
+    font-size: 0.8rem;
+    /* width: 250px; */
+	display: flex;
+	flex-flow: row wrap;
+}
+
+#second-div>div {
+    flex: 1 1 0;
+    text-align: center;
+    /* border: 1px solid seagreen; */
+    margin: 0 1%;
+    padding: 4px;
+	border-radius: 10px;
+	background-color: lightblue;
+}
 
 #word-input {
-  font-size: 0.9rem;
+	font-size: 0.9rem;
 }
 
 #display-time {
-    background-color: aqua;
-    width: 20px;
-    border: 5px solid orange;
-    padding: 25px;
-    margin: auto;
+	background-color: aqua;
+	width: 20px;
+	border: 5px solid orange;
+	padding: 25px;
+	margin: auto;
 }
+
 #show-word {
-  font-weight: bold;
+	font-weight: bold;
 }
 
 .good-input {
-  color: #006eff;
+	color: #006eff;
 }
 
 .bad-input {
-  color: #ff0000;
+	color: #ff0000;
 }
 
 .end-input {
-  color: #8a2be2;
+	color: #8a2be2;
 }
 
 .erase-assertion {
-  color: rgba(255,255,255, 0.0);
+	color: rgba(255, 255, 255, 0.0);
 }
 
 .line-through {
-  text-decoration: line-through;
+	text-decoration: line-through;
 }

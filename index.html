@@ -2,73 +2,75 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <title>Typing Game Prototype</title>
+	<meta charset="UTF-8">
+	<title>Typing Game Prototype</title>
 
-  <script src="js/words.js"></script>
-  <script src="js/word-functions.js"></script>
-  <script src="js/random-word.js"></script>
-  <script src="js/timer.js"></script>
-  <script src="js/listeners.js"></script>
-  <script src="js/index.js"></script>
-  <link rel="stylesheet" href="css/style.css">
+	<script src="js/words.js"></script>
+	<script src="js/word-functions.js"></script>
+	<script src="js/random-word.js"></script>
+	<script src="js/timer.js"></script>
+	<script src="js/listeners.js"></script>
+	<script src="js/index.js"></script>
+	<link rel="stylesheet" href="css/style.css">
 
 </head>
 
 <body>
 
-  <!-- Game section    -->
-  <section id='game-section'>
-    <div id='first-div'>
-      <h2>Typing game.</h2>
-      <h3> Based on
-        <i>Type of the Dead.</i>
-      </h3>
-      <p>
-        Please type this word:
-      </p>
-      <output id='show-word'></output>
+	<!-- Game section    -->
+	<section id='game-section'>
+		<div id='first-div'>
+			<h2>Typing game.</h2>
+			<h3> Based on
+				<i>Type of the Dead.</i>
+			</h3>
+			<p>
+				Please type this word:
+			</p>
+			<output id='show-word'></output>
 
-      <br>
-      <br>
+			<br>
+			<br>
 
-      <label for="word-input">Type your words here:
-        <input type="text" id='word-input' name='words'>
-      </label>
-      <br>
-      <br>
-      <output id='assert'>
-        <!--ASSERT OUTPUT-->
-      </output>
-      <br>
-      <br>
-      <div id="display-time" class=''>
-        0
-      </div>
-      <br>
-      <br>
-    </div>
-    <div id='second-div'>
-      <label for='wordLength'>
-        Starting word length</label>
-      <br>
-      <input id='wordLength' type='number' min='3' max='15' value='3'>
-      <br>
-      <label for='counter-dur'>
-        Counter duration</label>
-      <br>
-      <input id='counter-dur' type='number' min='3' max='15' value='7'>
+			<label for="word-input">Type your words here:
+				<input type="text" id='word-input' name='words'>
+			</label>
+			<br>
+			<br>
+			<output id='assert'>
+				<!--ASSERT OUTPUT-->
+			</output>
+			<br>
+			<br>
+			<div id="display-time" class=''>
+				0
+			</div>
+			<br>
+			<br>
+		</div>
+		<div id='second-div'>
+			<div>
+				<label for='wordLength'>
+					Starting word length</label>
+				<br>
+				<input id='wordLength' type='number' min='3' max='15' value='3'>
+			</div>
+			<div>
+				<label for='counter-dur'>
+					Counter duration</label>
+				<br>
+				<input id='counter-dur' type='number' min='3' max='15' value='7'>
+			</div>
+		</div>
 
-    </div>
+	</section>
+	<!-- <hr> -->
 
-  </section>
-  <hr>
+	<!--   Comments section  -->
+	<section>
 
-  <!--   Comments section  -->
-  <section>
-
-    <!--     About the game -->
-    <!-- <div>
+		<!--     About the game -->
+		<!-- <div>
       <p>
         This is a prototype of a typing game based on the game
         <i>Type of the Dead.</i> The idea is to type the words as fast as possible. The selection of words comes from scientific
@@ -90,8 +92,8 @@
     <br>
     <hr> -->
 
-    <!--     Comments -->
-    <!-- <div>
+		<!--     Comments -->
+		<!-- <div>
       <h4>From a programming standpoint some interesting features might be: </h4>
       <ul>
         <li>A timer object that holds several functions including posting to a desired HTML element identified by ID. (MyTimer()
@@ -108,9 +110,9 @@
       <h6>Note: All line numbers refer JS file.</h6>
     </div>
 	<hr> -->
-	
-    <!--     Observations -->
-    <!-- <div>
+
+		<!--     Observations -->
+		<!-- <div>
       <h4>Observations on code: </h4>
       <ul>
         <li>Global space is too polluted, perhaps an object acting in a namespace sort of way would help with this. </li>
@@ -120,8 +122,8 @@
     </div>
 
     <hr> -->
-    <!--  Possible future work    -->
-    <!-- <div>
+		<!--  Possible future work    -->
+		<!-- <div>
       <h4>Possible improvements (future work):</h4>
       <ul>
         <li>Adding a score. </li>
@@ -134,7 +136,7 @@
         <li>An option to select timer length.</li>
       </ul>
     </div> -->
-  </section>
+	</section>
 </body>
 
 
