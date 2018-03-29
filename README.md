@@ -1,7 +1,7 @@
 # Typing-Game
 ## A typing game based on Type of the Dead.
 
-### [Live version.](http://irvingangulo.com/assets/typing-game-f/typing-game/)
+### [Live version at github.io.](https://irvang.github.io/typing-game/)
 
 _**Typing-Game**_  is a prototype of a typing game based on the game Type of the Dead. The idea is to type the words as fast as possible. The selection of words comes from scientific animal names ([source: Animals by Scientific Names](https://a-z-animals.com/animals/scientific/)).
 
