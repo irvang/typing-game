@@ -1,9 +1,9 @@
 # Typing-Game
 ## A typing game based on Type of the Dead.
 
-[Live version.](http://irvingangulo.com/assets/typing-game-f/typing-game/)
+### [Live version.](http://irvingangulo.com/assets/typing-game-f/typing-game/)
 
-This project is a prototype of a typing game based on the gameType of the Dead. The idea is to type the words as fast as possible. The selection of words comes from scientific animal names ( source: Animals by Scientific Names).
+** _Typing-Game_ ** is a prototype of a typing game based on the gameType of the Dead. The idea is to type the words as fast as possible. The selection of words comes from scientific animal names ( source: Animals by Scientific Names).
 
 ## THE GAME:
 A word will appear in black. Type the words as fast as possible in the box. A new word will show once you have typed the prompted word, or once the timer reaches cero (0). 
