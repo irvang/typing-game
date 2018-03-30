@@ -11,42 +11,43 @@ body {
 p, li {
 	font-size: 0.9rem;
 }
+#container1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
 
 #game-section {
 	background-color: #c8e5ff;
 	border: 10px solid #014598d9;
 	border-radius: 5px;
-	margin: auto;
+	/* margin: auto; */
 	max-width: 450px;
 	padding: 10px;
 	min-height: 450px;
 	min-width: 200px;
 }
 
-#first-div {
-	text-align: center;
-
-}
-
-#second-div {
-    font-size: 0.8rem;
-    /* width: 250px; */
-	display: flex;
-	flex-flow: row wrap;
-}
-
-#second-div>div {
-    flex: 1 1 0;
-    text-align: center;
-    /* border: 1px solid seagreen; */
-    margin: 0 1%;
-    padding: 4px;
-	border-radius: 10px;
-	background-color: lightblue;
+#show-word {
+	font-weight: bold;
 }
 
 #word-input {
 	font-size: 0.9rem;
+}
+
+/* good-input, bad-input, end-input are used in the js listeners, 
+they color assert-div */
+.good-input {
+	color: #006eff;
+}
+
+.bad-input {
+	color: #ff0000;
+}
+.end-input {
+	color: #8a2be2;
 }
 
 #display-time {
@@ -57,26 +58,21 @@ p, li {
 	margin: auto;
 }
 
-#show-word {
-	font-weight: bold;
+#first-div {
+	text-align: center;
 }
 
-.good-input {
-	color: #006eff;
+#second-div {
+	font-size: 0.8rem;
+	display: flex;
+	flex-flow: row wrap;
 }
 
-.bad-input {
-	color: #ff0000;
-}
-
-.end-input {
-	color: #8a2be2;
-}
-
-.erase-assertion {
-	color: rgba(255, 255, 255, 0.0);
-}
-
-.line-through {
-	text-decoration: line-through;
+#second-div>div {
+	flex: 1 1 0;
+	text-align: center;
+	margin: 0 1%;
+	padding: 4px;
+	border-radius: 10px;
+	background-color: lightblue;
 }
