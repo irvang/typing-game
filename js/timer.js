@@ -1,6 +1,6 @@
 class MyTimer {
 
-	//  timer is set to work on seconds. The subtraction is every 100ms therefore counter-= 0.1. It would otherwise take to long tu update 
+	//  timer is set to work on seconds. The subtraction is every 100ms therefore counter-= 0.1. It would otherwise take too long tu update 
 	constructor(counterDuration) {
 		this.counter = counterDuration;
 		this.counterDur = counterDuration;//this
